@@ -1,0 +1,3 @@
+[submodule "Mux_sequence_table"]
+	path = Mux_sequence_table
+	url = https://github.com/Szelests/Mux_sequence_table.git
