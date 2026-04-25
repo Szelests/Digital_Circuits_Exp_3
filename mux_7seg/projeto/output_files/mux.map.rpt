@@ -1,5 +1,5 @@
 Analysis & Synthesis report for mux
-Sat Apr 25 17:38:12 2026
+Sat Apr 25 17:52:18 2026
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Sat Apr 25 17:38:12 2026       ;
+; Analysis & Synthesis Status ; Successful - Sat Apr 25 17:52:18 2026       ;
 ; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name               ; mux                                         ;
 ; Top-level Entity Name       ; mux                                         ;
@@ -214,7 +214,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sat Apr 25 17:38:08 2026
+    Info: Processing started: Sat Apr 25 17:52:15 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mux -c mux
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -229,8 +229,8 @@ Info (21057): Implemented 18 device resources after synthesis - the final resour
     Info (21061): Implemented 7 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
     Info: Peak virtual memory: 397 megabytes
-    Info: Processing ended: Sat Apr 25 17:38:12 2026
-    Info: Elapsed time: 00:00:04
+    Info: Processing ended: Sat Apr 25 17:52:18 2026
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:07
 
 

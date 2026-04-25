@@ -1,5 +1,5 @@
 Fitter report for mux
-Sat Apr 25 17:38:12 2026
+Sat Apr 25 17:52:19 2026
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -54,7 +54,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------+
 ; Fitter Summary                                                      ;
 +-----------------------+---------------------------------------------+
-; Fitter Status         ; Successful - Sat Apr 25 17:38:12 2026       ;
+; Fitter Status         ; Successful - Sat Apr 25 17:52:19 2026       ;
 ; Quartus Prime Version ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name         ; mux                                         ;
 ; Top-level Entity Name ; mux                                         ;
@@ -530,9 +530,9 @@ Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments 
 Warning (169174): The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
 Info (144001): Generated suppressed messages file /home/szelest/Documentos/universidade/circ_digitais/exp_3/mux_7seg/projeto/output_files/mux.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 1328 megabytes
-    Info: Processing ended: Sat Apr 25 17:38:12 2026
-    Info: Elapsed time: 00:00:00
+    Info: Peak virtual memory: 1335 megabytes
+    Info: Processing ended: Sat Apr 25 17:52:19 2026
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:00
 
 

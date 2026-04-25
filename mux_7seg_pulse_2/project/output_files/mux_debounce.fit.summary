@@ -1,0 +1,11 @@
+Fitter Status : Successful - Sat Apr 25 19:48:09 2026
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : mux_debounce
+Top-level Entity Name : mux_debounce
+Family : MAX II
+Device : EPM240T100C5
+Timing Models : Final
+Total logic elements : 39 / 240 ( 16 % )
+Total pins : 10 / 80 ( 13 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

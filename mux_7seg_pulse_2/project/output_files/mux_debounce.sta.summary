@@ -1,0 +1,29 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'clock_50MHz'
+Slack : -7.647
+TNS   : -153.642
+
+Type  : Setup 'debouncer:U1|clean_state'
+Slack : -1.813
+TNS   : -6.615
+
+Type  : Hold 'clock_50MHz'
+Slack : -1.790
+TNS   : -1.790
+
+Type  : Hold 'debouncer:U1|clean_state'
+Slack : 1.678
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'clock_50MHz'
+Slack : -2.289
+TNS   : -2.289
+
+Type  : Minimum Pulse Width 'debouncer:U1|clean_state'
+Slack : 0.234
+TNS   : 0.000
+
+------------------------------------------------------------

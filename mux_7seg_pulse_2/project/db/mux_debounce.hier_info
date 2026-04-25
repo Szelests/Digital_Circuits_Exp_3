@@ -1,0 +1,43 @@
+|mux_debounce
+clock_50MHz => debouncer:U1.CLOCK
+CLK_BTN => debouncer:U1.BTN_IN
+CLEAR => count[0].ACLR
+CLEAR => count[1].ACLR
+CLEAR => count[2].ACLR
+CLEAR => count[3].ACLR
+HEX0[0] << Mux6.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[1] << Mux5.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[2] << Mux4.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[3] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[4] << Mux2.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[5] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[6] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux_debounce|debouncer:U1
+CLOCK => clean_state.CLK
+CLOCK => counter[0].CLK
+CLOCK => counter[1].CLK
+CLOCK => counter[2].CLK
+CLOCK => counter[3].CLK
+CLOCK => counter[4].CLK
+CLOCK => counter[5].CLK
+CLOCK => counter[6].CLK
+CLOCK => counter[7].CLK
+CLOCK => counter[8].CLK
+CLOCK => counter[9].CLK
+CLOCK => counter[10].CLK
+CLOCK => counter[11].CLK
+CLOCK => counter[12].CLK
+CLOCK => counter[13].CLK
+CLOCK => counter[14].CLK
+CLOCK => counter[15].CLK
+CLOCK => counter[16].CLK
+CLOCK => counter[17].CLK
+CLOCK => counter[18].CLK
+CLOCK => counter[19].CLK
+BTN_IN => process_0.IN1
+BTN_IN => clean_state.DATAB
+BTN_OUT <= clean_state.DB_MAX_OUTPUT_PORT_TYPE
+
+
